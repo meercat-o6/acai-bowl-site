@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DAIKAKUMEI ASAI BOWL</title>
+        <meta
+            name="description"
+            content="DAIKAKUMEI ACAI BOWL - 手頃な価格で美味しいアサイーボウルを提供する専門店。関学前店・金閣寺店で営業中。"
+        />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <!-- AOS CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        />
+    </head>
+    <body>
+        <!-- header section -->
+        <header id="top">
+            <nav>
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#top">TOP</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                    <li>
+                        <a
+                            href="https://www.instagram.com/daikakumei_acai/?igsh=MWRxYTY3NWIxeHJzOQ%3D%3D&utm_source=qr#"
+                            target="_blank"
+                            ><img
+                                class="instagram-icon"
+                                src="img/instagram-icon.png"
+                                alt="投稿を見る"
+                        /></a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>
+                <img
+                    class="logo"
+                    src="img/logo.png"
+                    alt="DAIKAKUMEI ASAI BOWL"
+                />
+            </h1>
+        </header>
+
+        <main>
+            <!--About section-->
+            <section
+                id="about"
+                class="about"
+                data-aos="fade-up"
+                data-aos-duration="700"
+            >
+                <div class="container">
+                    <h2 class="section-title">
+                        About
+                        <img
+                            class="title-leaf"
+                            src="img/title-leaf.png"
+                            alt=""
+                        />
+                    </h2>
+
+                    <div class="about-contents">
+                        <img
+                            class="acai-logo-circle"
+                            src="img/acai-logo-circle.png"
+                            alt=""
+                        />
+
+                        <div class="about-description">
+                            <p class="about-title">
+                                手頃な価格で、<br />
+                                美味しいアサイーボウルを。
+                            </p>
+                            <p class="about-text">
+                                DAIKAKUMEIでは、<br />
+                                「誰でも手に届く贅沢」をテーマに、<br />
+                                アサイーとフルーツのバランス、食感、彩りまで<br />
+                                細やかにこだわっています。<br />
+                                一口ごとに広がるフレッシュな風味で、<br />
+                                心まで満たされる時間をお届けします。
+                            </p>
+                        </div>
+                        <img
+                            class="background-leaf"
+                            src="img/palm-tree.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!--Menu section-->
+            <section
+                id="menu"
+                class="menu"
+                data-aos="fade-up"
+                data-aos-duration="700"
+            >
+                <div class="container">
+                    <h2 class="section-title">
+                        Menu
+                        <img
+                            class="title-leaf"
+                            src="img/title-leaf.png"
+                            alt=""
+                        />
+                    </h2>
+
+                    <div class="menu-content">
+                        <div class="menu-nav">
+                            <span id="menuMoveLeft" class="menu-nav__arrow">
+                                <svg
+                                    class="menu-nav__icon"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"
+                                    ></path>
+                                </svg>
+                            </span>
+                            <div class="menu-nav__counter">
+                                <span id="menuCurrentPage">1</span>
+                                <span class="menu-nav__separator">/</span>
+                                <span id="menuTotalPages">2</span>
+                            </div>
+                            <span id="menuMoveRight" class="menu-nav__arrow">
+                                <svg
+                                    class="menu-nav__icon"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                >
+                                    <path
+                                        d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
+                                    ></path>
+                                </svg>
+                            </span>
+                        </div>
+
+                        <div class="menu-item active">
+                            <div
+                                class="menu-item__image"
+                                data-bg="img/acai-bowl.png"
+                            ></div>
+                            <div class="menu-item__info">
+                                <h2 class="menu-item__subtitle">
+                                    Refreshing blend
+                                </h2>
+                                <h1 class="menu-item__title">acai-bowl</h1>
+                                <p class="menu-item__description">
+                                    banana, strawberry, blueberry, mango
+                                </p>
+                                <p class="menu-item__price">¥1000</p>
+                            </div>
+                        </div>
+
+
+                        <div class="menu-item">
+                            <div
+                                class="menu-item__image"
+                                data-bg="img/acai-smoothie.png"
+                            ></div>
+                            <div class="menu-item__info">
+                                <h2 class="menu-item__subtitle">
+                                    Smooth & light
+                                </h2>
+                                <h1 class="menu-item__title">acai-smoothie</h1>
+                                <p class="menu-item__description">
+                                    acai, soy milk
+                                </p>
+                                <p class="menu-item__price">¥500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Gallery section-->
+            <section
+                id="gallery"
+                class="gallery"
+                data-aos="fade-up"
+                data-aos-duration="700"
+            >
+                <div class="container">
+                    <h2 class="section-title">
+                        Gallery
+                        <img
+                            class="title-leaf"
+                            src="img/title-leaf.png"
+                            alt=""
+                        />
+                    </h2>
+
+                    <!-- ここがスライダー本体 -->
+                    <div
+                        class="insta-carousel owl-carousel"
+                        id="instagramGallery"
+                    >
+                        <!-- Instagram posts will be dynamically generated here -->
+                    </div>
+                </div>
+            </section>
+
+            <!--Access section-->
+            <section class="access" data-aos="fade-up" data-aos-duration="700">
+                <div class="container">
+                    <h2 class="section-title">
+                        Access
+                        <img
+                            class="title-leaf"
+                            src="img/title-leaf.png"
+                            alt=""
+                        />
+                    </h2>
+
+                    <div class="access-info">
+                        <div class="map-kangakumae">
+                            <div class="address">
+                                <h3>関学前店</h3>
+                                <p>
+                                    〒662-0813<br />
+                                    兵庫県西宮市上甲東園３丁目９−１<br />
+                                    阪急甲東園駅より徒歩約13分<br />
+                                    TEL 0798427309
+                                </p>
+                            </div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.4827210573985!2d135.34697707632014!3d34.76862117956452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f358f399be0d%3A0x413f35de62f89d33!2zREFJS0FLVU1FSSDjgqLjgrXjgqTjg7zjg5zjgqbjg6vlsILploDlupc!5e0!3m2!1sja!2sjp!4v1758643529364!5m2!1sja!2sjp"
+                                width="550"
+                                height="450"
+                                style="border: 0"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer section -->
+        <footer>
+            <img class="logo" src="img/logo.png" alt="DAIKAKUMEI ASAI BOWL" />
+            <div class="container">
+                <p class="copy-right">&copy; 2025 DAIKAKUMEI ACAI BOWL</p>
+            </div>
+            <img class="footer-fruits" src="img/footer-fruits.png" alt="" />
+        </footer>
+
+        <!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        <!-- AOS JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <!-- Main JavaScript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
